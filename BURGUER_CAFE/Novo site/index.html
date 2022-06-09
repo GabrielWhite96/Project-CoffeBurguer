@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Burguer Café</title>
+        <script src="https://kit.fontawesome.com/0435733c2b.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="./imagens/logo.png" alt="Logo da Hamburgueria Café" id="logo-cabecalho">
+            <div class="container">
+                <button class="botao-menu-lateral"><i class="fa-solid fa-bars"></i></button>
+                <nav class="menu-navegacao">
+                    <ul class="lista-navegacao lista-navegacao-mobile">
+                        <li><a class="link-navegacao" link href="#">Lanches</a></li>
+                        <li><a class="link-navegacao" link href="#">Bebidas</a></li>
+                        <li><a class="link-navegacao" link href="#">Sobremesas</a></li>
+                        <li><a class="link-navegacao" link href="#">Pedidos</a></li>
+                        <li><a class="link-navegacao" link href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a class="link-navegacao" link href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        
+        <nav class="menu-lateral menu-lateral--ativo">
+            <a class="menu-lateral-link" href="#">Início</a>
+            <a class="menu-lateral-link" href="#">Bebidas</a>
+            <a class="menu-lateral-link" href="#">Sobremesas</a>
+            <a class="menu-lateral-link" href="#">Pedidos</a>
+        </nav>
+
+        <main class="principal">
+            <section class="conteudo-principal">
+                <div class="container">
+                    <h2 class="conteudo-principal-titulo">A vida é muito curta para não comer um hambúrguer hoje</h2>
+                    <p class="conteudo-principal-texto">Vem matar a sua vontade</p>
+                    <button class="conteudo-principal-botao">Faça o seu pedido</button>
+                </div>
+            </section>
+
+            <section class="conteudo-secundario">
+                <div class="caixa-ambiente">
+                    <img src="./imagens/ambiente.jpg" id="ambiente">
+                    <div class="caixa-descricao">
+                        <p class="ambiente-descricao">Visite a nossa lanchonete</p>
+                        <button class="ambiente-botao ambiente-botao-localizacao"><i class="fa-solid fa-location-dot"></i></button>
+                    </div>
+                </div>
+                <div class="caixa-lista">
+                    <h2 class="conteudo-secundario-titulo">Na nossa lanchonete oferecemos:</h2>
+                    <ul class="conteudo-secundario-lista">
+                        <li class="conteudo-secundario-items">Variedade de lanches</li>
+                        <li class="conteudo-secundario-items">Atendimento personalizado</li>
+                        <li class="conteudo-secundario-items">Entrega rápida de pedidos</li>
+                        <li class="conteudo-secundario-items">Ambiente agradável</li>
+                    </ul>
+                </div>           
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <div class="container">
+                <img src="./imagens/logo.png" alt="Logo da Hamburgueria Café" id="logo-rodape">
+                <p class="copyright-rodape">Copyrght 2022 &#169;</p>
+            </div>
+            <nav class="navegacao-rodape">
+                <a class="link-rodape"><i class="fa-brands fa-instagram"></i></a>
+                <a class="link-rodape"><i class="fa-brands fa-facebook-f"></i></a>
+            </nav>
+        </footer>
+    </body>
+    <script src="index.js"></script>
+</html>
